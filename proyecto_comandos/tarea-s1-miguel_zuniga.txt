@@ -1,0 +1,87 @@
+    1  ipa
+    2  ipconfig
+    3  pwm
+    4  clear
+    5  pwd
+    6  dir
+    7  ls
+    8  ls -la
+    9  clear
+   10  pwd
+   11  mkdir tendencias_tecnologicas
+   12  cd tendencias_tecnologicas/
+   13  mkdir week_1
+   14  cd week_1/
+   15  mkdir proyecto_comandos 
+   16  cd proyecto_comandos/
+   17  mkdir documentos, imagenes, scripts
+   18  sudo rm *
+   19  whoamio
+   20  whoami
+   21  sudo -l
+   22  wsl -l -v
+   23  cat /etc/os-release
+   24  sudo -k
+   25  sudo whoami
+   26  sudo 
+   27  sudo whoami
+   28  dir
+   29  sudo rm *
+   30  sudo rm -r *
+   31  dir
+   32  mkdir documentos imagenes scripts
+   33  cd imagenes 
+   34  nano notas.txt
+   35  cat notas.txt
+   36  cd ..
+   37  sudo rm -rf *
+   38  dir
+   39  ld
+   40  ls
+   41  cd ..
+   42  pwd
+   43  mkdir tendencias_tecnologicas
+   44  pwd
+   45  cd tendencias_tecnologicas/
+   46  ls
+   47  dir
+   48  mkdir week_1
+   49  mkdir proyecto_comandos
+   50  sudo rm proyecto_comandos/
+   51  sudo rm -r proyecto_comandos/
+   52  cd week_1/
+   53  mkdir proyecto_comandos 
+   54  cd proyecto_comandos/
+   55  mkdir documentos imagenes scripts
+   56  cd documentos/
+   57  nano notas.txt
+   58  cd ..
+   59  cp documentos/notas.txt scripts/backup_notas.txt
+   60  cd scripts/
+   61  ls
+   62  sudo rm notas_reenombrado.txt
+   63  sudo rm notas_renombrado.txt
+   64  cd .. 
+   65  cd scripts/
+   66  mv backup_notas.txt imagenes/
+   67  cd ..
+   68  mv scripts/backup_notas.txt imagenes/
+   69  cd imagenes
+   70  ls 
+   71  cd ..
+   72  cat notas.txt > resumen.txt
+   73  ls
+   74  cat resumen.txt
+   75  echo "esta es otra forma de escribir, acá en cambio no se sobrescribe el texto anterior" >> resumen.txt
+   76  cat resumen.txt
+   77  cat notas.txt
+   78  cd ..
+   79  ls
+   80  sudo rm backup_notas.txt
+   81  ls -la
+   82  rmdir imagenes
+   83  cd ..
+   84  rmdir imagenes
+   85  dir
+   86  history
+   87  history | tee tarea-s1-miguel_zuniga.txt 
