@@ -1,46 +1,82 @@
-# Informe de práctica: Comandos básicos de Linux
+# Práctica 1: Comandos básicos de Linux
 
-**Estudiante:** Miguel Ángel Zúñiga Sarmiento
-**Asignatura:** Tendencias Tecnológicas 
-**Semana:** 1
+## 1. Título
 
-## 1. Objetivo
+Manejo de archivos y directorios en Linux.
 
-Aprender a utilizar comandos básicos de Linux para navegar por directorios, crear carpetas y archivos, copiar y mover 
-información, y eliminar archivos y directorios.
+## 2. Tiempo de duración
 
-## 2. Comandos utilizados
+Aproximadamente 10 minutos.
 
-| Comando | Función |
-|---|---|
-| `pwd` | Muestra la ruta del directorio actual. |
-| `ls` | Lista los archivos y directorios. |
-| `cd` | Permite cambiar de directorio. |
-| `mkdir` | Crea directorios. |
-| `nano` | Permite crear y editar archivos de texto. |
-| `cat` | Muestra el contenido de archivos. |
-| `cp` | Copia archivos. |
-| `mv` | Mueve o renombra archivos. |
-| `echo` | Escribe texto en la terminal. |
-| `>` | Redirige la salida y sobrescribe el archivo de destino. |
-| `>>` | Añade contenido al final de un archivo. |
-| `rm` | Elimina archivos. |
-| `rmdir` | Elimina directorios vacíos. |
-| `history` | Muestra el historial de comandos ejecutados. |
-| `sudo` | Ejecuta comandos con privilegios administrativos, cuando están autorizados. |
+## 3. Fundamentos
 
-## 3. Actividades realizadas
+Linux permite manejar archivos y carpetas desde la terminal. Para esto existen comandos como `mkdir`, que crea directorios; `cd`, que permite entrar en ellos; y `ls`, que muestra su contenido.
 
-1. Creación del directorio `proyecto_comandos` y sus subdirectorios `documentos`, `imagenes` y `scripts`.
-2. Creación y edición del archivo `notas.txt`.
-3. Copia del archivo de notas hacia otro directorio.
-4. Práctica de movimiento de archivos entre directorios.
-5. Creación de `resumen.txt` mediante redirección de salida.
-6. Adición de texto al archivo sin sobrescribir el contenido existente.
-7. Eliminación de archivos y directorios vacíos.
-8. Consulta del historial de comandos mediante `history`.
+También se pueden crear, copiar y mover archivos con comandos como `touch`, `cp` y `mv`. Para ver el contenido de un archivo se utiliza `cat`.
 
-## 4. Conclusiones
+Los operadores `>` y `>>` sirven para guardar información en archivos. El primero reemplaza el contenido anterior, mientras que el segundo agrega texto al final.
 
-La práctica de esta semana me ayudo a entender más la terminal de Linux y sus comandos al igual que descubrir muchas cosas que se pueden hacer
-en la misma
+Para eliminar archivos se utiliza `rm`, y para eliminar directorios vacíos se usa `rmdir`. Estos comandos deben utilizarse con cuidado para no borrar información por error.
+
+Por último, `history` permite consultar los comandos ejecutados en la terminal. Conocer estas instrucciones facilita la organización de archivos y el manejo básico de Linux.
+
+## 4. Conocimientos previos
+
+- Manejo básico de computadores.
+- Uso de la terminal.
+- Diferencia entre archivos y directorios.
+
+## 5. Objetivos a alcanzar
+
+- Practicar comandos básicos de Linux.
+- Crear y organizar directorios.
+- Copiar, mover y eliminar archivos.
+- Guardar información usando redirecciones.
+
+## 6. Equipo necesario
+
+- Computador con Windows.
+- Ubuntu mediante WSL.
+- Terminal Warp.
+- Cuenta de GitHub.
+
+## 7. Material de apoyo
+
+- Guía de la asignatura.
+- Documentación de Ubuntu.
+- Manual de comandos Linux.
+
+## 8. Procedimiento
+
+1. Se verificó el usuario y el sistema operativo.
+2. Se crearon las carpetas `documentos`, `imagenes` y `scripts`.
+3. Se creó `notas.txt` con varias líneas.
+4. Se copió y movió el archivo de respaldo.
+5. Se creó `resumen.txt` usando `>` y `>>`.
+6. Se eliminó el archivo de respaldo y la carpeta vacía `imagenes`.
+7. Se guardó el historial de comandos y se publicó el trabajo en GitHub.
+
+**Figura 8-1. Creación de directorios.**
+
+![Creación de directorio y subdirectorios](/week-1-tend-tecn/1.png)
+
+**Figura 8-2. Manipulación de archivos.**
+
+![](/week-1-tend-tecn/2.png)
+![](/week-1-tend-tecn/3.png)
+![](/week-1-tend-tecn/4.png)
+
+**Figura 8-3. Repositorio publicado.**
+
+![](/week-1-tend-tecn/5.png)
+
+## 9. Resultados esperados
+
+Se practicó la creación de directorios, la manipulación de archivos, el uso de redirecciones y la eliminación de elementos desde la terminal. Los archivos del trabajo quedaron publicados en GitHub.
+
+Repositorio: https://github.com/Pan2209/week-1-tend-tecn
+
+## 10. Bibliografía
+
+- Ubuntu. (s. f.). *Documentación oficial*. https://documentation.ubuntu.com/
+- GNU Project. (s. f.). *GNU Coreutils*. https://www.gnu.org/software/coreutils/manual/coreutils.html
